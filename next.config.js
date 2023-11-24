@@ -16,6 +16,7 @@ const nextConfig = {
   },
   env: {
     REACT_APP_ASSISTANT_ID: process.env.REACT_APP_ASSISTANT_ID,
+    REACT_APP_ASSISTANT_INTRO: process.env.REACT_APP_ASSISTANT_INTRO,
   },
 };
 

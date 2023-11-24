@@ -20,9 +20,9 @@ export async function POST(req: NextRequest) {
   console.log('CREATE THREAD started');
   if (req.method === 'POST') {
     try {
+
       const data = await req.json();
       const inputMessage = data.inputmessage;
-
       // Überprüfen, ob die Eingabemessage vorhanden und ein String ist
       if (!inputMessage || typeof inputMessage !== 'string') {
         throw new Error('inputmessage is missing or not a string');
