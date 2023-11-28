@@ -3,9 +3,6 @@ import { Inter } from "next/font/google";
 import { ReactNode } from "react";
 import Toaster from "./toaster";
 import { Analytics } from "@vercel/analytics/react";
-import { authOptions } from "./api/auth/[...nextauth]";
-import { getServerSession } from "next-auth/next";
-import { useSession} from "next-auth/react";
 
 const inter = Inter({ subsets: ["latin"] });
 
